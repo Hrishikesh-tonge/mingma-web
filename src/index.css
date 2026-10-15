@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+
+  --color-cafe-darkgreen: #153324;
+  --color-cafe-green: #1F4231;
+  --color-cafe-forest: #2A543E;
+  --color-cafe-sage: #537562;
+  --color-cafe-lightgreen: #E8F0EB;
+  --color-cafe-cream: #FAF9F5;
+  --color-cafe-paper: #F5F3EC;
+  --color-cafe-sand: #EDE8DC;
+  --color-cafe-beige: #DFD7C4;
+  --color-cafe-terracotta: #A45538;
+  --color-cafe-espresso: #2C221E;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-cafe-cream);
+  color: #262522;
+  overflow-x: hidden;
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+/* Subtle organic grain overlay effect for modern indie cafe feel */
+.bg-grain {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF9F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #D9D2C2;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1F4231;
+}

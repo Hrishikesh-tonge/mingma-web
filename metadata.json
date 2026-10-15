@@ -1,0 +1,6 @@
+{
+  "name": "Mingma's Coffee Shop & Cafe | Manali",
+  "description": "Minimalist portfolio, all-day brunch menu, and specialty coffee catalog for Mingma's Coffee Shop & Cafe, located on Mall Road, Manali.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
